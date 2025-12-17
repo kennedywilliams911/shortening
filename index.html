@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[var(--Gray-100)] font-[Poppins]">
+    <!-- header -->
+    <div class="flex justify-between md:p-20 p-10 font-[Poppins] font-[700] ">
+      <div class="flex gap-12 items-center">
+        <img src="./images/logo.svg" alt="" />
+
+        <div class="flex gap-12 hidden md:flex">
+          <div>Features</div>
+          <div>Pricing</div>
+          <div>Resources</div>
+        </div>
+      </div>
+
+      <div class="flex gap-12 items-center hidden md:flex ">
+        <div>Login</div>
+        <div
+          class="w-[110px] h-[40px] flex justify-center items-center bg-[var(--Blue-400)] rounded-[20px] text-[white] p-2"
+        >
+          Sign Up
+        </div>
+      </div>
+
+      <div class="w-[45px]  md:hidden ">
+        <img
+          src="./images/png-clipart-computer-icons-hamburger-button-icon-design-web-typography-bar-icon-angle-rectangle.svg"
+          alt=""
+        />
+      </div>
+    </div>
+
+   
+
+    <!-- second -->
+    <div class="flex font-[Poppins] md:p-20 p-11 flex-col md:flex-row relative">
+      <div class="md:absolute right-[-150px] md:top-[50px]">
+        <img src="./images/illustration-working.svg" alt="" />
+      </div>
+
+      <div
+        class="text-center md:text-start flex flex-col md:w-[60%] md:h-[400px] h-[230px] justify-center items-center md:items-start gap-4 md:pb-10 pt-20"
+      >
+        <div class="font-[700] md:text-[40px] text-[35px]">
+          More than just <br />
+          shorter links
+        </div>
+
+        <div class="text-[15px]">
+          Build your brand’s recognition and get detailed <br />
+          insights on how your links are performing.
+        </div>
+
+        <div
+          class="w-[150px] h-[40px] bg-[var(--Blue-400)] rounded-[20px] text-[white] p-2 font-[700] mt-4 text-center"
+        >
+          Get Started
+        </div>
+      </div>
+    </div>
+
+    <!-- 3rd -->
+    <div
+      class="bg-[url(./images/bg-shorten-desktop.svg)] bg-cover bg-center md:h-[130px] md:w-[800px] h-[140px] w-[300px] bg-[var(--Purple-950)] md:m-auto m-auto rounded-2xl absolute p-10 font-[Poppins] md:right-[250px] md:bottom-[-320px] bottom-[-65px] right-[40px]"
+    >
+      <div class="flex flex-col md:flex-row gap-4 justify-center">
+        <div class="">
+          <input class="bg-[white] pl-10 md:w-[600px] w-[220px] md:h-[40px]
+          rounded-[4px]" type="text id="username" name="username"
+          placeholder="Shorten a link here...">
+        </div>
+
+        <div
+          class="md:w-[150px] md:h-[40px] bg-[var(--Blue-400)] rounded-[4px] text-[white] md:p-2 font-[700] text-center"
+        >
+          Shorten It!
+        </div>
+      </div>
+    </div>
+
+    <!-- 4th -->
+    <div
+      class="mt-25 flex flex-col justify-center font-[Poppins] bg-[var(--Gray-500)]"
+    >
+      <div class="flex flex-col mt-30">
+        <div class="text-center">
+          <p class="font-[700] text-[40px]">Advanced Statistics</p>
+
+          <p class="p-2">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="flex md:gap-4 gap-15 justify-center pt-20 flex-col md:flex-row items-center"
+      >
+        <div
+          class="md:w-[100vh] md:h-[6px] h-[100vh] w-[6px] bg-[var(--Blue-400)] absolute z-1"
+        ></div>
+
+        <div
+          class="w-[300px] h-[300px] bg-[white] flex flex-col p-8 text-center md:text-start rounded-xl relative z-2"
+        >
+          <div
+            class="w-[65px] h-[65px] bg-center bg-no-repeat bg-[var(--Purple-950)] md:top-[-30px] md:left-[30px] top-[-30px] right-[120px] bg-[url(./images/icon-brand-recognition.svg)] rounded-4xl absolute"
+          ></div>
+
+          <div class="font-[700] mt-10 pb-4">Brand Recognition</div>
+
+          <div>
+            Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.
+          </div>
+        </div>
+
+        <div
+          class="w-[300px] h-[300px] bg-[white] flex flex-col p-8 text-center md:mt-25 md:text-start rounded-xl relative z-2"
+        >
+          <div
+            class="w-[65px] h-[65px] bg-center bg-no-repeat bg-[var(--Purple-950)] md:left-[30px] md:top-[-30px] top-[-30px] right-[120px] bg-[url(./images/icon-detailed-records.svg)] rounded-4xl absolute"
+          ></div>
+          <div class="font-[700] mt-10 pb-4">Detailed Records</div>
+
+          <div>
+            Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
+          </div>
+        </div>
+
+        <div
+          class="w-[300px] h-[300px] bg-[white] flex flex-col p-8 text-center md:mt-60 md:text-start rounded-xl relative z-2 mb-15"
+        >
+          <div
+            class="w-[65px] h-[65px] bg-center bg-no-repeat bg-[var(--Purple-950)] md:left-[30px] md:top-[-30px] top-[-30px] right-[120px] bg-[url(./images/icon-fully-customizable.svg)] rounded-4xl absolute"
+          ></div>
+
+          <div class="font-[700] mt-10 pb-4">Fully Customizable</div>
+
+          <div>
+            Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-[url(./images/bg-shorten-desktop.svg)] bg-cover bg-center text-[white] bg-[var(--Purple-950)] p-10 font-[Poppins]"
+    >
+      <div class="flex flex-col gap-4 justify-center items-center">
+        <div class="font-[700] text-[30px] text-center">
+          Boost your links today
+        </div>
+
+        <div
+          class="w-[150px] h-[40px] bg-[var(--Blue-400)] rounded-[8px] p-2 md:p-2 font-[700] text-center"
+        >
+          Get Started
+        </div>
+      </div>
+    </div>
+
+
+    <div class=" bg-[var(--Gray-900)] text-[white] flex flex-col md:flex-row gap-15 justify-evenly pt-15 md:p-10">
+
+      <div class="flex justify-center md:items-start">
+        <img src="./images/logo (2).svg" alt="" />
+      </div>
+
+      <div class="flex gap-10 flex-col md:flex-row justify-center md:items-start items-center text-center ">
+        <div>
+          <p class="font-[700] text-[20px] pb-4">
+            Features</p>
+          <p>Link Shortening</p>
+          <p>Branded Links</p>
+          <p>Analytics</p>
+        </div>
+
+
+        <div>
+          <p class="font-[700] text-[20px] pb-4">
+            Resources</p>
+          <p>Blog</p>
+          <p>Developers</p>
+          <p>Support</p>
+        </div>
+
+        <div>
+          <p class="font-[700] pb-4 text-[20px]">
+            Company</p>
+          <p>About</p>
+          <p>Our Team</p>
+          <p>Careers</p>
+          <p>Contact</p>
+        </div>
+      </div>
+
+      <div class="flex md:w-[20px] md:h-[20px] gap-4 justify-center items-center md:items-start pb-12">
+        <img src="./images/icon-facebook.svg" alt="" />
+        <img src="./images/icon-twitter.svg" alt="" />
+        <img src="./images/icon-pinterest.svg" alt="" />
+        <img src="./images/icon-instagram.svg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
